@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+@font-face {
+	font-family: Crafty Girls;
+	src: url('Crafty Girls.ttf');
+}
+header{
+	height:70px;
+	margin: 1px 1px 1px 1px;
+	padding: 20px 1px 1px 1px;
+}
+#logo a{
+	margin-top: -25px;
+    margin-left: 25px;
+	float: left;
+	font-weight: bolder;
+	text-decoration: none;
+	font-size: 50px;
+	color: black;
+	font-family: 'Bungee Shade', serif;
+	text-shadow: 0 1px 0 white;
+}
+nav {
+	overflow: hidden;
+	float: right;
+}
+nav li {
+
+	float: left;;
+	list-style: none;
+}
+
+nav li a {
+	font-size: 25px;
+	font-weight: bolder;
+	text-decoration: none;
+	padding:  25px;
+	color: #000;
+    font-family: 'Crafty Girls', serif;
+	text-shadow: 0 2px 0 black;
+}
+#home img {
+width: 100%;
+height: 50%;
+
+}
+#events {
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+	border: 2mm solid;
+    border-color: grey;
+	line-height: 1.5;
+	padding: 30px;
+}
+body {
+	background:
+     #fefac0
+}
+
